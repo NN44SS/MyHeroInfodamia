@@ -1,0 +1,26 @@
+@font-face {
+    font-family: MHA;
+    src: url("/src/fonts/Futura\ Display\ BQ\ Regular.otf") format("otf"),
+         url("/src/fonts/Futura\ Display\ BQ\ Regular.woff") format("woff");
+}
+
+
+.modalWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modalImg{
+    flex: 30%;
+}
+
+.modalName{
+    flex: 70%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "MHA";
+}
+
+.modalTitles{
+    font-weight: bold;
+}

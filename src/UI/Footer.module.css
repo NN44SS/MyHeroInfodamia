@@ -1,0 +1,15 @@
+.footerWrapper{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerTxt{
+    color:white;
+}
+
+.footerTxtContainer{
+    max-width: 1200px;
+}

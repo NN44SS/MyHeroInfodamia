@@ -1,0 +1,44 @@
+@font-face {
+    font-family: MHA;
+    src: url("/src/fonts/Futura\ Display\ BQ\ Regular.otf") format("otf"),
+         url("/src/fonts/Futura\ Display\ BQ\ Regular.woff") format("woff");
+}
+
+.cardWrapper {
+    display: inline-flex;
+    width: 300px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #d2d2d2;
+}
+
+.cardImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.cardText{
+    text-align: center;
+    margin: auto;
+    font-family: "MHA";
+}
+
+.imgSection{
+    flex: 30%;
+}
+
+.textSection{
+    flex: 70%;
+    justify-content: center;
+    align-self: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: "MHA";
+}
+
+.aliasTxt {
+    font-size: 1rem;
+}
